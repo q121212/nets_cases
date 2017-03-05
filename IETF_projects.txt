@@ -1,0 +1,44 @@
+
+Task from Tanenbaum's Computer's Network, 5th ed, book:
+Go to IETF’s Web site, www.ietf.org, to see what they are doing. Pick a project you
+like and write a half-page report on the problem and the proposed solution.
+-------------------------
+
+IEFT is a  Internet Engineering Task Force
+The mission is "to make the Internet work better" from engineering point of view.
+
+Currently Active IETF working groups (WG) divided into sections:
+- Aplications and Real-Time area (art active WGs),
+- General area,
+- Internet area,
+- Operations and management area,
+- Routing area,
+- Security area,
+- Transport area.
+
+The next topics are interesting to me as results of WGs activity:
+- Emerging Service Provider Scenarios for IPv6 Deployment (RFC 6036)
+	https://datatracker.ietf.org/doc/rfc6036/
+
+- IPv6 Guidance for Internet Content Providers and Application Service Providers (RFC 6883)
+-	https://datatracker.ietf.org/doc/rfc6883/
+
+- Enterprise IPv6 Deployment Guidelines (RFC 7381)
+	https://datatracker.ietf.org/doc/rfc7381/
+
+- Internet Protocol, Version 6 (IPv6) Specification (draft-ietf-6man-rfc2460bis-08)
+	https://datatracker.ietf.org/doc/draft-ietf-6man-rfc2460bis/
+
+- IP Version 6 Addressing Architecture (draft-ietf-6man-rfc4291bis-07)
+	https://datatracker.ietf.org/doc/draft-ietf-6man-rfc4291bis/
+
+- Default Address Selection for Internet Protocol Version 6 (IPv6) (RFC 6724)
+	https://datatracker.ietf.org/doc/rfc6724/
+
+
+My report about review Emerging Service Provider Scenarios for IPv6 Deployment (RFC 6036)
+	https://datatracker.ietf.org/doc/rfc6036/
+
+As stated in Abstract of RFC 6036, it's "describes practices and plans that are emerging among Internet Service Providers for the deployment of IPv6 services. They are based on practical experience so far, as well as current plans and requirements, reported in a survey of a number of ISPs carried out in early 2010. This document identifies a number of technology gaps, but it does not make recommendations."
+
+In fact RFC 6036 is a sociological review of current situation of IPv6 deployment in list of ISPs with the questionnaire and Summary of Replies on it.
