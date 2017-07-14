@@ -46,8 +46,13 @@ class L:
 
   def parse_packet(self, packet):
     self.size_of_message = packet[:2]
-    self.message = packet[2:]
-    return self.message
+    try:
+    	self.size_of_message = int(self.size_of_message)
+    	self.message = packet[2:]
+    	return self.message
+    except:
+    	print("The bellow packet is damaged and can't be recognized!")
+    	return packet
 	
   def create_packet(self,message):
     if len(message)<10:
@@ -62,7 +67,7 @@ if __name__ == '__main__':
     for i in range(30):
       message = l.create_packet(message)
       print(message)
-    for i in range(10):
+    for i in range(32):
       message = l.parse_packet(message)
       print(message)
 #    l = Layer()
